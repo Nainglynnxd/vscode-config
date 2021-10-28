@@ -1,1 +1,24 @@
-/Users/nainglynn/Library/Application Support/Code/User/settings.json
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontFamily": "'MonoLisa'",
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["[", "<SPACE>"],
+      "after": ["o", "<ESC>"]
+    },
+    {
+      "before": ["]", "<SPACE>"],
+      "after": ["O", "<ESC>"]
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontSize": 14,
+  "workbench.iconTheme": "vscode-great-icons"
+}
