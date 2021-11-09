@@ -22,5 +22,8 @@
   "workbench.startupEditor": "none",
   "terminal.integrated.fontSize": 14,
   "workbench.iconTheme": "vscode-great-icons",
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
