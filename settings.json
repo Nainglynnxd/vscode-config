@@ -2,7 +2,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.fontFamily": "'MonoLisa'",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "emmet.triggerExpansionOnTab": true,
@@ -23,7 +23,18 @@
   "terminal.integrated.fontSize": 14,
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.editor.untitled.hint": "hidden",
-  "[cpp]": {
+  "[cpp ]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  }
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "terminal.integrated.fontFamily": "'MonoLisa'",
+  "editor.linkedEditing": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.productIconTheme": "fluent-icons",
+  "svelte.enable-ts-plugin": true,
+  "editor.accessibilitySupport": "off"
 }

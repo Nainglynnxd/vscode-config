@@ -9,14 +9,6 @@
     "command": "-workbench.action.files.newUntitledFile"
   },
   {
-    "key": "cmd+n",
-    "command": "extension.advancedNewFile"
-  },
-  {
-    "key": "alt+cmd+n",
-    "command": "-extension.advancedNewFile"
-  },
-  {
     "key": "tab",
     "command": "selectNextSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
@@ -45,5 +37,9 @@
     "key": "ctrl+`",
     "command": "-workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
+  },
+  {
+    "key": "cmd+n",
+    "command": "fileutils.newFileAtRoot"
   }
 ]
