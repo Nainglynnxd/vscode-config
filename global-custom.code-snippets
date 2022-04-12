@@ -1,4 +1,11 @@
 {
+  /** Rust */
+  "println!": {
+    "prefix": "pln",
+    "body": ["println!(\"{}\", ${1:var});"],
+    "description": "println!"
+  },
+
   //javascript
   "Simple Arrow Function": {
     "prefix": "funarr",
