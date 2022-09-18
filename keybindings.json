@@ -51,5 +51,17 @@
     "key": "ctrl+space",
     "command": "-extension.vim_ctrl+space",
     "when": "editorTextFocus && vim.active && vim.use<C-space> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "alt+f",
+    "command": "dart-import.fix"
+  },
+  {
+    "key": "alt+5",
+    "command": "flutter.hotRestart"
+  },
+  {
+    "key": "alt+r",
+    "command": "flutter.hotReload"
   }
 ]

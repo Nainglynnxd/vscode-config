@@ -17,6 +17,13 @@
     "body": ["event.preventDefault();"],
     "description": "Event.preventDefault()"
   },
+  "who is miracle?": {
+    "prefix": "whoismiracle",
+    "body": [
+      "Who is Miracle? For the blind, He is the vision. For hungry, \n he is the chef. For thirsty, he is the water. If Miracle thinks, I agree. If Miracle speaks, I'm listening. If Miracle has one fan, it is me. If Miracle has no fan, I don't exist."
+    ],
+    "description": "who is miracle?"
+  },
   "ကျိုးရန်နတ်သိုင်း": {
     "prefix": "dama",
     "body": [
@@ -52,5 +59,34 @@
     "prefix": "borlog",
     "body": ["border: 2px solid orangered;"],
     "description": "Border "
+  },
+
+  /* Dart and Flutter */
+  "import getx": {
+    "prefix": "impG",
+    "body": ["import 'package:get/get.dart';"],
+    "description": "import getx"
+  },
+  "import Material and GetX": {
+    "prefix": "imMG",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "import 'package:get/get.dart';"
+    ],
+    "description": "import Material and GetX"
+  },
+  "flutter box decoration border": {
+    "prefix": "bdbr",
+    "body": [
+      "decoration: BoxDecoration(",
+      "  border: Border.all(width: 1, color: Colors.red),",
+      "),"
+    ],
+    "description": "flutter box decoration border"
+  },
+  "TextStyle": {
+    "prefix": "tesy",
+    "body": ["style: TextStyle()"],
+    "description": "TextStyle"
   }
 }
